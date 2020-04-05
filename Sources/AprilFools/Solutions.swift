@@ -1,1 +1,0 @@
-//var s = readLine()!;let d=Int(s.prefix(2))!;let m=Int(s.dropFirst(2).dropLast(2))!;switch m{case 0,(12...):print("0");default:switch d{case (1...28):print("1")case 29,30:(Int(s.suffix(4))!%4==0&&m==2)==false ? print("0"):print("1");case(31):return m==4||m==6||m==9||m==11;default:print("0")}}
